@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <h1 id="test">Hello world</h1>
+    <section id="test2">
+        <p>Hello my name is Chigbu Chiemela</p>
+    </section>
+
+    
+
+<script>
+
+    let test1 = document.getElementById("test");
+
+    oldtest1 = test1.innerHTML;
+    test1.innerHTML = `<button>${oldtest1}</button>`;
+
+    let test2 = document.getElementById("test2");
+
+    oldtest2 = test2.innerHTML;
+    test2.innerHTML = `<u>${oldtest2}</u>`
+
+
+
+</script>
+
+</body>
+</html>
