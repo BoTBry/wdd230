@@ -182,10 +182,10 @@ iframe{
     color: #fff;
     position: relative;
     line-height: 1.5rem;
-    text-align: right;
     justify-items: left;
 }
 .weather ul{
+    text-align: right;
     padding: 5px;
 }
 .weather a{
